@@ -21,7 +21,7 @@ Overall, this project demonstrates a production-ready data engineering workflow,
 
 # Acknowledgement
 This project was inspired by learning resources from the Databricks and data engineering community.
-Conceptual guidance for the Lakehouse architecture and Bronze–Silver–Gold design pattern was derived from various YouTube tutorial but special thanks to by @Ansh_Lamba and @codebasics.
+Conceptual guidance for the Lakehouse architecture and Bronze–Silver–Gold design pattern was derived from various YouTube tutorial but special thanks to @Ansh_Lamba and @codebasics.
 
 
 
