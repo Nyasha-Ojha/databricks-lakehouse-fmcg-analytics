@@ -19,4 +19,10 @@ Overall, this project demonstrates a production-ready data engineering workflow,
 
 ![FMCG2](https://github.com/user-attachments/assets/9364636d-66d6-4c4b-93c0-1899a54b98ab)
 
+# Acknowledgement
+This project was inspired by learning resources from the Databricks and data engineering community.
+Conceptual guidance for the Lakehouse architecture and Bronze–Silver–Gold design pattern was derived from various YouTube tutorial but special thanks to by @Ansh_Lamba and @codebasics.
+
+
+
 
