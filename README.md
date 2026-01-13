@@ -7,6 +7,7 @@ This project implements an enterprise-grade FMCG analytics platform using the Da
 <img width="20005" height="11129" alt="project_architecture" src="https://github.com/user-attachments/assets/b1b7bd1a-439c-43ba-96ea-5513958c11c0" />
 The data pipeline is built using a Bronze–Silver–Gold layered architecture, where raw sales data is ingested from Amazon S3 into Bronze tables, cleansed and standardized in the Silver layer, and transformed into analytics-ready Gold datasets. Each layer is purpose-driven, ensuring data reliability, scalability, and clear separation of concerns across ingestion, transformation, and reporting.
 
+
 A key highlight of this project is the parent–child company analytics model, where individual child companies maintain their own Gold-level business metrics while a parent organization consumes consolidated analytics across all subsidiaries. This structure reflects real enterprise scenarios involving multi-brand or multi-region organizations and enables both decentralized data ownership and centralized reporting.
 
 The platform leverages Databricks-native tools including Lakeflow Jobs for orchestration, Unity Catalog for governance and access control, and Databricks SQL for analytics delivery. Business insights are served through interactive SQL dashboards and enhanced with Databricks Genie, allowing stakeholders to query Gold tables using natural language without requiring SQL expertise.
